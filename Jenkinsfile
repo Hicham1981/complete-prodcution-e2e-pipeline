@@ -8,7 +8,7 @@ pipeline{
     }
     environment {
         APP_NAME = "complete-prodcution-e2e-pipeline"
-        RELEASE = "1.0.0"
+        RELEASE = "1.1.0"
         DOCKER_USER = "19732019"
         DOCKER_PASS = 'Thla3536@'
         IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
