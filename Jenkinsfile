@@ -10,7 +10,7 @@ pipeline{
         APP_NAME = "complete-prodcution-e2e-pipeline"
         RELEASE = "1.1.0"
         DOCKER_USER = "19732019"
-        DOCKER_PASS = 'Thla3536@'
+        DOCKER_PASS = 'Thla872673'
         IMAGE_NAME = "${DOCKER_USER}" + "/" + "${APP_NAME}"
         IMAGE_TAG = "${RELEASE}-${BUILD_NUMBER}"
        
